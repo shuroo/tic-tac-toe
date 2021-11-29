@@ -13,7 +13,8 @@ body {
     overflow-x: hidden;
 }
 
-.container {
+
+/* .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -21,7 +22,7 @@ body {
     font-size: 36px;
     margin: auto;
     font-weight: bold;
-}
+} */
 
 .alertBox {
     padding: 15px;
