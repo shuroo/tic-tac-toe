@@ -4,8 +4,9 @@
 }
 
 body {
+    text-align: center;
+    color: blanchedalmond;
     background-image: linear-gradient(to right, darkblue, purple, lightgray);
-    color: white;
     font: 100% Lato, Arial, Sans Serif;
     height: 100vh;
     margin: 0;
@@ -13,16 +14,20 @@ body {
     overflow-x: hidden;
 }
 
-
-/* .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.btn-reload {
+    width: 70%;
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
     align-items: center;
-    font-size: 36px;
-    margin: auto;
-    font-weight: bold;
-} */
+}
+
+.btnWrapper {
+    justify-content: center;
+    padding: auto;
+    display: flex;
+}
 
 .alertBox {
     padding: 15px;
